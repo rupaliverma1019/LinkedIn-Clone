@@ -1,0 +1,12 @@
+.widget {
+    display: flex;
+    flex: 0.35;
+}
+
+.widget_profile_info {}
+
+.header_footer {
+    border-radius: 10px;
+    margin-bottom: 3px;
+    background-color: aliceblue;
+}

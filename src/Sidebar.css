@@ -1,0 +1,64 @@
+.sidebar {
+    display: flex;
+    flex: 0.30;
+    flex-direction: column;
+    position: sticky;
+}
+
+.sidebar .sidebar__profile {
+    border-bottom: 1px solid black;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.sidebar .sidebar__profile img {
+    width: 100%;
+    height: 100px;
+    margin-bottom: -20px;
+}
+
+.MuiAvatar-circular {
+    width: 60px;
+    height: 60px;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+
+.profile__details {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.profile__details p {
+    margin: 5px 10px;
+    font-size: 13px;
+    color: #333;
+}
+
+.profile__stats {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    font-size: 12px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.sidebar__recent {
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    position: sticky;
+}
+
+.hash span {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 5px;
+    color: #333;
+}

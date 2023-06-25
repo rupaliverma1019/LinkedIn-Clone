@@ -1,0 +1,50 @@
+.posts {
+    background-color: white;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.posts .post__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post__headerLeft {
+    display: flex;
+    flex-direction: row;
+}
+
+.post_profile_details h3 {
+    display: contents;
+    border: 1px solid black;
+}
+
+.post_profile_details p {
+    margin-top: 2px;
+    font-size: 13px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    color: #333;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-top: 1px solid gainsboro;
+}
+
+.option:hover {
+    background-color: gainsboro;
+}
